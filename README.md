@@ -135,4 +135,3 @@ This project, “Random Email Generator”, including all source code, design, a
 ```
 
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/8864151a-69a3-4944-a9d4-b74735db4289" />
