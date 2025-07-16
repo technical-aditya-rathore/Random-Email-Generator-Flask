@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Email Generator</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Email Generator</h1>
+        <button id="generateBtn">Generate Email</button>
+        <p id="emailOutput"></p>
+    </div>
+
+    <footer>
+        &copy; 2025 Aditya Kumar Jha | All Rights Reserved.
+    </footer>
+
+    <script>
+        const btn = document.getElementById('generateBtn');
+        const output = document.getElementById('emailOutput');
+
+        btn.addEventListener('click', () => {
+            fetch('/generate')
+            .then(response => response.json())
+            .then(data => {
+                output.textContent = "Generated Email: " + data.email;
+            });
+        });
+    </script>
+</body>
+</html>
