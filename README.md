@@ -20,7 +20,7 @@
 
 ## Preview:
 
-[Img]("Screenshot 2025-07-14 200551.png")
+![Img](preview.png)
 
 <br>
 <br>
