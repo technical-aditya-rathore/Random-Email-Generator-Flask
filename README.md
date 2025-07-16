@@ -54,6 +54,8 @@ This is a simple Flask web app that generates a random email address at the clic
 ```
    git clone https://github.com/technical-aditya-rathore/Random-Email-Generator-Flask.git
    cd Random-Email-Generator-Flask
+   pip install flask
+
 ```
    
 <br>
