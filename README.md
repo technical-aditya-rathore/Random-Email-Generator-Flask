@@ -57,6 +57,8 @@ This is a simple Flask web app that generates a random email address at the clic
    pip install flask
 
 ```
+
+And go to this route on your browser or check your terminal logs : `http://127.0.0.1:5000`
    
 <br>
 <br>
