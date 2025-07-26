@@ -5,7 +5,7 @@ Name: Random Email Generator
 
 Tech Stack: Python (Flask) + HTML + CSS
 
-Features:
+Features:-
 
 Generates a random email each time you click a button
 
